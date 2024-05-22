@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* login.css */
+
+/* Style for the container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Style for the heading */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the form */
+.container form {
+    margin-bottom: 20px;
+}
+
+/* Style for the form labels */
+.container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style for the form inputs */
+.container form input[type="text"],
+.container form input[type="email"],
+.container form select ,
+.container form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure the padding and border are included in the element's total width */
+}
+
+/* Style for the login button */
+.container form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff; /* White color for the text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+/* Hover effect for the login button */
+.container form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Style for the register link */
+.container a[href="rigister.jsp"] {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s; /* Smooth transition effect */
+}
+
+/* Hover effect for the register link */
+.container a[href="rigister.jsp"]:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Style for the back to home link */
+.container a[href="index.html"] {
+    display: block;
+    color: #333; /* Dark color for the link */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Hover effect for the back to home link */
+.container a[href="index.html"]:hover {
+    color: #666; /* Darker shade of gray on hover */
+}

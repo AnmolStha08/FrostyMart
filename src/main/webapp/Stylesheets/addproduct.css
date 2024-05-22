@@ -1,0 +1,108 @@
+ /* Basic reset */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.sidebar {
+position: fixed;
+height: 100%;
+width: 200px;
+background-color: #333;
+color: #fff;
+padding: 20px;
+}
+
+/* Remove bullet points from list items */
+.sidebar ul {
+list-style: none;
+}
+
+.sidebar a {
+text-decoration: none;
+color:white;
+}
+
+.sidebar a:hover {
+color: red;
+}
+Ul .active{
+color: green;
+}
+
+.navbar {
+background-color: #222;
+color: #fff;
+padding: 10px 20px;
+position: fixed;
+/* top: 0; */
+left: 200px; /* Width of sidebar */
+width: calc(100% - 200px); /* Width of viewport - width of sidebar */
+/* z-index: 9999; */
+}
+ .navbar h2{
+  color: white;
+ }
+
+
+h2 {
+    color: #333;
+}
+
+
+
+
+  
+form {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 350px;
+    margin-top: 120px;
+}
+
+
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 110%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+
+.div7{
+    margin-left: 200px;
+    display: flex;
+    
+    
+}

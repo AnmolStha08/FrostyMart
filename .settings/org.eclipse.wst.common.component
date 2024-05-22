@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="FrostyMart">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <dependent-module archiveName="taglibs-standard-spec-1.2.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/anmol/Downloads/taglibs1.2.5_1609282a-793d-488b-917f-6ed7eb2752ed_170833_ (1)/taglibs-standard-spec-1.2.5.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="taglibs-standard-impl-1.2.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/anmol/Downloads/taglibs1.2.5_1609282a-793d-488b-917f-6ed7eb2752ed_170833_ (1)/taglibs-standard-impl-1.2.5.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                        
+        
+        <property name="java-output-path" value="/FrostyMart/build/classes"/>
+        <property name="context-root" value="FrostyMart"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>

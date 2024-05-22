@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+ /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Sidebar styling */
+    /* Sidebar styling */
+    .sidebar {
+    	margin-top: -60px; 
+        position: fixed;
+        height: 100%;
+        width: 200px;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+
+    /* Remove bullet points from list items */
+    .sidebar ul {
+        list-style: none;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color:white;
+    }
+
+    .sidebar a:hover {
+        color: red;
+    }
+    ul .active{
+        color: green;
+    }
+
+    /* Content area styling */
+    .content {
+        margin-top: 60px; 
+        margin-left: 220px; /* Width of sidebar + some padding */
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+        gap: 20px; /* Spacing between flex items */
+    }
+    /* Navbar styling */
+    .navbar {
+        background-color: #222;
+        color: #fff;
+        padding: 10px 20px;
+        position: fixed;
+        top: 0; 
+        left: 200px; /* Width of sidebar */
+        width: calc(100% - 200px); /* Width of viewport - width of sidebar */
+        /* z-index: 9999; */
+    }
+
+    /* Box styling */
+    
+    .box {
+        
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Body styling */
+    body {
+        font-family: Arial, sans-serif;
+    }

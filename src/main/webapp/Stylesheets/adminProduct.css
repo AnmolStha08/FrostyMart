@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+/* Basic reset */
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidebar css */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sidebar a:hover {
+            color: red;
+        }
+
+        .sidebar ul .active {
+            color: green;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #222;
+            color: #fff;
+            padding: 10px 20px;
+            width: calc(100% - 200px); 
+            position: fixed;
+            top: 0;
+            left: 200px; 
+            z-index: 999;
+        }
+
+    /* Table styles */
+   /* Table Container */
+    /* Table styles */
+    .table-container {
+        margin-top: 50px; /* Adjust the margin to create space below the navbar */
+        margin-left: 200px; /* Width of the sidebar */
+        width: calc(100% - 200px); /* Width of viewport - width of sidebar */
+        overflow-x: auto; /* Enable horizontal scrolling if the table exceeds the container width */
+    }
+
+    table {
+        width: 90%; /* Decrease the width of the table */
+        margin: 0 auto; /* Center the table horizontally */
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 6px; /* Decrease padding to reduce cell size */
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+
+
+    /* table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    } */
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    td button {
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    td button:hover {
+        background-color: #45a049;
+    }

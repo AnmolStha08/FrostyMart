@@ -1,0 +1,95 @@
+ @charset "UTF-8";
+.product-details {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-details .field {
+  margin-bottom: 20px;
+}
+
+.product-details input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-details h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: #333;
+}
+
+.product-details p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f00;
+}
+.product_card {
+            display: inline-block;
+            width: 20%; /* Fixed width */
+            height: 500px; /* Fixed height */
+            margin: 50px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Include padding in width and height */
+            text-align: center; /* Align text inside product card to center */
+            overflow: hidden; /* Hide overflow content */
+        }
+
+        .product_card img {
+            max-width: 100%;
+            max-height: 300px; 
+            height: auto;
+        }
+
+        .product_info {
+            margin-top: 10px;
+            padding: 0 10px; /* Add padding to prevent overflow */
+        }
+
+        .product_desc {
+            max-height: 4.5em; /* 4 lines + half line for ellipsis */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .product_price {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .action-buttons {
+            margin-top: auto; /* Push buttons to the bottom */
+            padding: 10px; /* Add space below the buttons */
+        }
+
+        .buttons button {
+            width: 30%; 
+            margin-top: 10px; /* Add space between buttons */
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .buttons button.buy {
+            background-color: #28a745;
+        }
